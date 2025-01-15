@@ -9,6 +9,7 @@ const schemaStarto = new Schema({
   location: { type: String, required: true },
   proSituation: { type: String, required: true },
   salary: { type: Number, required: false },
+  phone: { type: String, required: true },
   totalDebts: { type: Number, required: true },
   creditsNumber: { type: Number, required: true },
   motivations: { type: String, required: true },

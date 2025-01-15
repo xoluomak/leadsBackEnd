@@ -9,6 +9,7 @@ exports.createStarto = (req, res, next) => {
     location: req.body.location,
     proSituation: req.body.proSituation,
     salary: req.body.salary,
+    phone: req.body.phone,
     totalDebts: req.body.totalDebts,
     creditsNumber: req.body.creditsNumber,
     motivations: req.body.motivations,
