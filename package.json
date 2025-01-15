@@ -9,7 +9,7 @@
   "author": "yoann cayron",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.1",
     "buffer": "^6.0.3",
     "express": "^4.17.3",
