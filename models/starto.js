@@ -19,7 +19,7 @@ const schemaStarto = new Schema({
   creditsType: { type: String, required: true },
   homeSituation: { type: String, required: true },
   actualMensualities: { type: Number, required: true },
-  availabilities: { type: String, required: true },
+  availabilities: { type: String, required: false },
 }, { timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
 schemaStarto.plugin(mongooseDelete,
